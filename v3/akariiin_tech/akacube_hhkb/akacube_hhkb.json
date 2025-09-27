@@ -13,10 +13,10 @@
       "label": "RGB Indicators",
       "content": [
         {
-          "label": "Preference",
+          "label": "Lock Indicator 1",
           "content": [
             {
-              "label": "Indicator 1",
+              "label": "Indicator",
               "type": "dropdown",
               "options": [
                 ["Disabled", 0],
@@ -26,31 +26,55 @@
                 ["Compose", 8],
                 ["Kana", 16]
               ],
-              "content": [
-                "lock_led_1_config",
-                0,
-                0
-              ]
+              "content": ["id_lock_led_0_config", 0, 0]
             },
             {
-              "label": "Indicator 2",
+              "label": "ON Color",
               "type": "dropdown",
               "options": [
-                ["Disabled", 0],
-                ["Num Lock", 1],
-                ["Caps Lock", 2],
-                ["Scroll Lock", 4],
-                ["Compose", 8],
-                ["Kana", 16]
+                ["Red", 1],
+                ["Orange", 2],
+                ["Yellow", 3],
+                ["Lime", 4],
+                ["Green", 5],
+                ["Teal", 6],
+                ["Cyan", 7],
+                ["Azure", 8],
+                ["Blue", 9],
+                ["Purple", 10],
+                ["Magenta", 11],
+                ["Rose", 12],
+                ["White", 13]
               ],
-              "content": [
-                "lock_led_2_config",
-                0,
-                3
-              ]
+              "content": ["id_lock_led_0_color_on", 0, 2]
             },
             {
-              "label": "Indicator 3",
+              "label": "OFF Color",
+              "type": "dropdown",
+              "options": [
+                ["Red", 1],
+                ["Orange", 2],
+                ["Yellow", 3],
+                ["Lime", 4],
+                ["Green", 5],
+                ["Teal", 6],
+                ["Cyan", 7],
+                ["Azure", 8],
+                ["Blue", 9],
+                ["Purple", 10],
+                ["Magenta", 11],
+                ["Rose", 12],
+                ["White", 13]
+              ],
+              "content": ["id_lock_led_0_color_off", 0, 1]
+            }
+          ]
+        },
+        {
+          "label": "Lock Indicator 2",
+          "content": [
+            {
+              "label": "Indicator",
               "type": "dropdown",
               "options": [
                 ["Disabled", 0],
@@ -60,30 +84,166 @@
                 ["Compose", 8],
                 ["Kana", 16]
               ],
-              "content": [
-                "lock_led_3_config",
-                0,
-                6
-              ]
+              "content": ["id_lock_led_1_config", 0, 3]
             },
+            {
+              "label": "ON Color",
+              "type": "dropdown",
+              "options": [
+                ["Red", 1],
+                ["Orange", 2],
+                ["Yellow", 3],
+                ["Lime", 4],
+                ["Green", 5],
+                ["Teal", 6],
+                ["Cyan", 7],
+                ["Azure", 8],
+                ["Blue", 9],
+                ["Purple", 10],
+                ["Magenta", 11],
+                ["Rose", 12],
+                ["White", 13]
+              ],
+              "content": ["id_lock_led_1_color_on", 0, 5]
+            },
+            {
+              "label": "OFF Color",
+              "type": "dropdown",
+              "options": [
+                ["Red", 1],
+                ["Orange", 2],
+                ["Yellow", 3],
+                ["Lime", 4],
+                ["Green", 5],
+                ["Teal", 6],
+                ["Cyan", 7],
+                ["Azure", 8],
+                ["Blue", 9],
+                ["Purple", 10],
+                ["Magenta", 11],
+                ["Rose", 12],
+                ["White", 13]
+              ],
+              "content": ["id_lock_led_1_color_off", 0, 4]
+            }
+          ]
+        },
+        {
+          "label": "Lock Indicator 3",
+          "content": [
+            {
+              "label": "Indicator",
+              "type": "dropdown",
+              "options": [
+                ["Disabled", 0],
+                ["Num Lock", 1],
+                ["Caps Lock", 2],
+                ["Scroll Lock", 4],
+                ["Compose", 8],
+                ["Kana", 16]
+              ],
+              "content": ["id_lock_led_2_config", 0, 6]
+            },
+            {
+              "label": "ON Color",
+              "type": "dropdown",
+              "options": [
+                ["Red", 1],
+                ["Orange", 2],
+                ["Yellow", 3],
+                ["Lime", 4],
+                ["Green", 5],
+                ["Teal", 6],
+                ["Cyan", 7],
+                ["Azure", 8],
+                ["Blue", 9],
+                ["Purple", 10],
+                ["Magenta", 11],
+                ["Rose", 12],
+                ["White", 13]
+              ],
+              "content": ["id_lock_led_2_color_on", 0, 8]
+            },
+            {
+              "label": "OFF Color",
+              "type": "dropdown",
+              "options": [
+                ["Red", 1],
+                ["Orange", 2],
+                ["Yellow", 3],
+                ["Lime", 4],
+                ["Green", 5],
+                ["Teal", 6],
+                ["Cyan", 7],
+                ["Azure", 8],
+                ["Blue", 9],
+                ["Purple", 10],
+                ["Magenta", 11],
+                ["Rose", 12],
+                ["White", 13]
+              ],
+              "content": ["id_lock_led_2_color_off", 0, 7]
+            }
+          ]
+        },
+        {
+          "label": "Layer Indicators",
+          "content": [
+            {
+              "label": "ON Color",
+              "type": "dropdown",
+              "options": [
+                ["Red", 1],
+                ["Orange", 2],
+                ["Yellow", 3],
+                ["Lime", 4],
+                ["Green", 5],
+                ["Teal", 6],
+                ["Cyan", 7],
+                ["Azure", 8],
+                ["Blue", 9],
+                ["Purple", 10],
+                ["Magenta", 11],
+                ["Rose", 12],
+                ["White", 13]
+              ],
+              "content": ["id_layer_led_color_on", 0, 10]
+            },
+            {
+              "label": "OFF Color",
+              "type": "dropdown",
+              "options": [
+                ["Red", 1],
+                ["Orange", 2],
+                ["Yellow", 3],
+                ["Lime", 4],
+                ["Green", 5],
+                ["Teal", 6],
+                ["Cyan", 7],
+                ["Azure", 8],
+                ["Blue", 9],
+                ["Purple", 10],
+                ["Magenta", 11],
+                ["Rose", 12],
+                ["White", 13]
+              ],
+              "content": ["id_layer_led_color_off", 0, 9]
+            }
+          ]
+        },
+        {
+          "label": "Preference",
+          "content": [
             {
               "label": "Indicator Timeout (x100ms)",
               "type": "range",
               "options": [1, 100],
-              "content": [
-                "lock_led_timeout_config",
-                0,
-                11
-              ]
+              "content": ["id_led_timeout", 0, 11]
             },
             {
               "label": "Show Lock Indicator for Layer Key",
               "type": "toggle",
-              "content": [
-                "layerkey_show_lockled_config",
-                0,
-                12
-              ]
+              "content": ["id_layerkey_show_lockled", 0, 12]
             }
           ]
         }
