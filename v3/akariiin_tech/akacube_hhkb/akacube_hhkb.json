@@ -13,7 +13,7 @@
       "label": "RGB Indicators",
       "content": [
         {
-          "label": "Lock Indicators",
+          "label": "Preference",
           "content": [
             {
               "label": "Indicator 1",
@@ -46,7 +46,7 @@
               "content": [
                 "lock_led_2_config",
                 0,
-                1
+                3
               ]
             },
             {
@@ -63,26 +63,26 @@
               "content": [
                 "lock_led_3_config",
                 0,
-                2
+                6
               ]
             },
             {
-              "label": "Indicator Timeout (100-10000ms)",
+              "label": "Indicator Timeout (x100ms)",
               "type": "range",
               "options": [1, 100],
               "content": [
                 "lock_led_timeout_config",
                 0,
-                3
+                11
               ]
             },
             {
-              "label": "Show Lock Indicators when Layer Key held",
+              "label": "Show Lock Indicator for Layer Key",
               "type": "toggle",
               "content": [
                 "layerkey_show_lockled_config",
                 0,
-                4
+                12
               ]
             }
           ]
