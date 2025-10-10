@@ -13,6 +13,22 @@
       "label": "RGB Indicators",
       "content": [
         {
+          "label": "Preference",
+          "content": [
+            {
+              "label": "Indicator Timeout (x100ms)",
+              "type": "range",
+              "options": [1, 100],
+              "content": ["id_led_timeout", 0, 11]
+            },
+            {
+              "label": "Show Lock Indicator for Layer Key",
+              "type": "toggle",
+              "content": ["id_layerkey_show_lockled", 0, 12]
+            }
+          ]
+        },
+        {
           "label": "Lock Indicator 1",
           "content": [
             {
@@ -44,7 +60,8 @@
                 ["Purple", 10],
                 ["Magenta", 11],
                 ["Rose", 12],
-                ["White", 13]
+                ["White", 13],
+                ["Black", 14]
               ],
               "content": ["id_lock_led_0_color_on", 0, 2]
             },
@@ -64,7 +81,8 @@
                 ["Purple", 10],
                 ["Magenta", 11],
                 ["Rose", 12],
-                ["White", 13]
+                ["White", 13],
+                ["Black", 14]
               ],
               "content": ["id_lock_led_0_color_off", 0, 1]
             }
@@ -102,7 +120,8 @@
                 ["Purple", 10],
                 ["Magenta", 11],
                 ["Rose", 12],
-                ["White", 13]
+                ["White", 13],
+                ["Black", 14]
               ],
               "content": ["id_lock_led_1_color_on", 0, 5]
             },
@@ -122,7 +141,8 @@
                 ["Purple", 10],
                 ["Magenta", 11],
                 ["Rose", 12],
-                ["White", 13]
+                ["White", 13],
+                ["Black", 14]
               ],
               "content": ["id_lock_led_1_color_off", 0, 4]
             }
@@ -160,7 +180,8 @@
                 ["Purple", 10],
                 ["Magenta", 11],
                 ["Rose", 12],
-                ["White", 13]
+                ["White", 13],
+                ["Black", 14]
               ],
               "content": ["id_lock_led_2_color_on", 0, 8]
             },
@@ -180,7 +201,8 @@
                 ["Purple", 10],
                 ["Magenta", 11],
                 ["Rose", 12],
-                ["White", 13]
+                ["White", 13],
+                ["Black", 14]
               ],
               "content": ["id_lock_led_2_color_off", 0, 7]
             }
@@ -205,7 +227,8 @@
                 ["Purple", 10],
                 ["Magenta", 11],
                 ["Rose", 12],
-                ["White", 13]
+                ["White", 13],
+                ["Black", 14]
               ],
               "content": ["id_layer_led_color_on", 0, 10]
             },
@@ -225,25 +248,10 @@
                 ["Purple", 10],
                 ["Magenta", 11],
                 ["Rose", 12],
-                ["White", 13]
+                ["White", 13],
+                ["Black", 14]
               ],
               "content": ["id_layer_led_color_off", 0, 9]
-            }
-          ]
-        },
-        {
-          "label": "Preference",
-          "content": [
-            {
-              "label": "Indicator Timeout (x100ms)",
-              "type": "range",
-              "options": [1, 100],
-              "content": ["id_led_timeout", 0, 11]
-            },
-            {
-              "label": "Show Lock Indicator for Layer Key",
-              "type": "toggle",
-              "content": ["id_layerkey_show_lockled", 0, 12]
             }
           ]
         }
