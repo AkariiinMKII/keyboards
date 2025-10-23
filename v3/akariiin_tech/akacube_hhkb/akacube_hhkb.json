@@ -10,7 +10,7 @@
   "menus": [
     "qmk_rgblight",
     {
-      "label": "RGB Indicators",
+      "label": "Custom",
       "content": [
         {
           "label": "Preference",
@@ -22,9 +22,19 @@
               "content": ["id_led_timeout", 0, 11]
             },
             {
-              "label": "Show Lock Indicator for Layer Key",
+              "label": "Show Lock Indicators for Layer Key",
               "type": "toggle",
-              "content": ["id_layerkey_show_lockled", 0, 12]
+              "content": ["id_flag_override_layerled", 0, 12]
+            },
+            {
+              "label": "Auto Disable Lock Indicators on macOS/iOS",
+              "type": "toggle",
+              "content": ["id_flag_auto_disable", 0, 13]
+            },
+            {
+              "label": "Auto Swap Alt/GUI on macOS/iOS",
+              "type": "toggle",
+              "content": ["id_flag_auto_swap", 0, 14]
             }
           ]
         },
